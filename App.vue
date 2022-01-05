@@ -139,6 +139,7 @@ export default {
     ]
 
     // this.getUnionID(); //获取用户UnionID
+	debugger;
     this.$store.dispatch('getUnionID').then(resp=>{
       console.log(resp);
     });
